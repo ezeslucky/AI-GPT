@@ -11,11 +11,7 @@
   A powerful, streamlined desktop application for Perplexity AI, providing seamless navigation between 🌐 <b>perplexity.ai</b> and 🧪 <b>labs.perplexity.ai</b> with enhanced features and an intuitive interface.
 </p>
 
-<p align="center">
-  <a href="https://www.pling.com/p/2107698/">
-    <img src="https://img.shields.io/badge/Download-Latest-green?style=for-the-badge" alt="Latest Release">
-  </a>
-</p>
+
 
 <p align="center">
   <img src="./assets/screenshots/perplexity_app.png" alt="App Screenshot">
