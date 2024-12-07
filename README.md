@@ -39,7 +39,7 @@
 
 ## 📦 Releases
 
-Download the latest releases for Windows, Linux, and macOS from the [releases section](https://github.com/inulute/perplexity-ai-app/releases).
+Download the latest releases for Windows, Linux, and macOS from the [releases section](https://github.com/ezeslucky/AI-GPT/releases).
 
 <p align="center">
   <a href="https://www.pling.com/p/2107698/">
@@ -63,8 +63,8 @@ This project is licensed under the GPL-v3 License.
 
 <div align='center'>
 
-  <a href="https://github.com/inulute/perplexity-ai-app/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/inulute/perplexity-ai-app?style=for-the-badge" alt="License">
+  <a href="https://github.com/ezeslucky/perplexity-ai-app/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/ezeslucky/perplexity-ai-app?style=for-the-badge" alt="License">
   </a>
 
 </div>

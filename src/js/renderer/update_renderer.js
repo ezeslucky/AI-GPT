@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 */
 function fetchReleaseNotes(version) {
 
-const owner = 'inulute'; 
+const owner = 'ezeslucky'; 
 const repo = 'perplexity-ai-app'; 
 const branch = 'main'; 
 

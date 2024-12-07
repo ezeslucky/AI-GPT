@@ -216,7 +216,7 @@ module.exports = { createTray };
 
 function checkForUpdates() {
   const currentVersion = app.getVersion();
-  const request = net.request('https://raw.githubusercontent.com/inulute/perplexity-ai-app/main/package.json');
+  const request = net.request('https://github.com/ezeslucky/AI-GPT.git/perplexity-ai-app/main/package.json');
 
   request.on('response', (response) => {
     let body = '';
@@ -355,7 +355,7 @@ ipcMain.on('close-update-window', () => {
 });
 
 ipcMain.on('download-update', () => {
-  shell.openExternal('https://github.com/inulute/perplexity-ai-app/releases/latest');
+  shell.openExternal('https://github.com/ezeslucky/AI-GPT.git/releases/latest');
 });
 
 function openSettingsWindow() {

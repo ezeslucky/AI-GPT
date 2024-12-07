@@ -2,7 +2,7 @@
   "name": "perplexity-ai-app",
   "productName": "Perplexity AI",
   "version": "3.2.0",
-  "description": "Perplexity AI desktop application by inulute.",
+  "description": "Perplexity AI desktop application by Lucky.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -12,8 +12,8 @@
     "package-linux": "electron-builder --linux",
     "obfuscate": "node obfuscate.js"
   },
-  "repository": "https://github.com/inulute/perplexity-ai-app",
-  "author": "inulute",
+  "repository": "https://github.com/ezeslucky/AI-GPT.git",
+  "author": "ezeslucky",
   "license": "GPL-3.0-only",
   "dependencies": {
     "electron-store": "^7.0.3"
@@ -25,7 +25,7 @@
     "javascript-obfuscator": "^4.1.1"
   },
   "build": {
-    "appId": "com.inulute.perplexityai",
+    "appId": "com.ezeslucky.perplexityai",
     "productName": "Perplexity AI",
     "directories": {
       "output": "release-builds"
