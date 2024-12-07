@@ -1,0 +1,48 @@
+{
+  "name": "perplexity-ai-app",
+  "productName": "Perplexity AI",
+  "version": "3.2.0",
+  "description": "Perplexity AI desktop application by inulute.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "package-mac": "electron-builder --mac",
+    "package-win": "electron-builder --win",
+    "package-linux": "electron-builder --linux",
+    "obfuscate": "node obfuscate.js"
+  },
+  "repository": "https://github.com/inulute/perplexity-ai-app",
+  "author": "inulute",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "electron-store": "^7.0.3"
+  },
+  "devDependencies": {
+    "csso": "^5.0.5",
+    "electron": "^33.0.2",
+    "electron-builder": "^25.1.8",
+    "javascript-obfuscator": "^4.1.1"
+  },
+  "build": {
+    "appId": "com.inulute.perplexityai",
+    "productName": "Perplexity AI",
+    "directories": {
+      "output": "release-builds"
+    },
+    "mac": {
+      "category": "your.app.Productivity",
+      "icon": "./assets/icons/mac/favicon.icns"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "./assets/icons/win/icon.ico",
+      "sign": false
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "./assets/icons/png/favicon.png",
+      "category": "Utility"
+    }
+  }
+}
